@@ -16,7 +16,7 @@ public class IInvokedMethodImpl implements IInvokedMethodListener {
 				"C:\\\\Users\\\\jiten\\\\Desktop\\\\Automation_Training\\\\chromedriver_win32\\\\chromedriver.exe");
 		WebdriverFactory.threadStorage.set(new ChromeDriver());
 		WebdriverFactory.threadStorage.get().manage().window().maximize();
-		WebdriverFactory.threadStorage.get().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		WebdriverFactory.threadStorage.get().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 		//Implicit wait
 		//1. It will wait for all the implicit methods used in framework i.e Findelement, get, isEnabled etc.
 		//2. It is applicable to all the elements in the page classes.

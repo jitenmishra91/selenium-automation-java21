@@ -33,7 +33,7 @@ public class LoginPage {
 		userName.sendKeys(txtUserName);
 		password.sendKeys(txtPassword);
 		loginButton.click();
-		return new HomePage().isPageLoaded();
+		return new HomePage();//.isPageLoaded();
 	}
 	
 	public String getErrorMessage()

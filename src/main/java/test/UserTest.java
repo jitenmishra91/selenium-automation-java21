@@ -19,6 +19,6 @@ public class UserTest {
 		.verifyWelcomeText()
 		.navigateToAdminPage()
 		.navigateToAddUserPage()
-		.addUser("Jiten", "Jiten123", "Jiten@12", "Jiten@12"); //Object chaining
+		.addUser("Jiten", "Jiten123", "Jiten@12", "Jiten@12");
 	}
 }
